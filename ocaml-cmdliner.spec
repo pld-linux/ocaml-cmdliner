@@ -79,12 +79,12 @@ rm -rf $RPM_BUILD_ROOT
 
 %files devel
 %defattr(644,root,root,755)
-%{_libdir}/ocaml/cmdliner/*.a
 %{_libdir}/ocaml/cmdliner/*.cmi
 %{_libdir}/ocaml/cmdliner/*.cmt
 %{_libdir}/ocaml/cmdliner/*.cmti
 %{_libdir}/ocaml/cmdliner/*.mli
 %if %{with ocaml_opt}
+%{_libdir}/ocaml/cmdliner/*.a
 %{_libdir}/ocaml/cmdliner/*.cmx
 %{_libdir}/ocaml/cmdliner/*.cmxa
 %endif
