@@ -35,7 +35,7 @@ poleceń dla OCamla.
 
 %package devel
 Summary:	Declarative definition of command line interfaces for OCaml - development part
-Summary(pl.UTF-8):	Deklaratywne definiowanie interfejsów linii poleceń dla OCamla - cześć programistyczna
+Summary(pl.UTF-8):	Deklaratywne definiowanie interfejsów linii poleceń dla OCamla - część programistyczna
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 %requires_eq	ocaml
